@@ -1,19 +1,23 @@
 <resources>
     <string name="app_name">FragmentIntentSpinner</string>
-    <string name="front">Where is DIU permanent campus?</string>
-    <string name="option1Text">Ashulia</string>
-    <string name="option2Text">Mirpur</string>
-    <string name="option3Text">Dhanmondi</string>
+    <string name="front">Which company made Android OS?</string>
+    <string name="option1Text">Facebook</string>
+    <string name="option2Text">Google</string>
+    <string name="option3Text">Amazon</string>
     <string name="submitText">SUBMIT</string>
     <string name="TryagainButtonText">Try Again</string>
 
-    <string name="bd_fragment_text">Bangladesh is so Beautiful</string>
-    <string name="in_fragment_text">India is our Neighbour Country</string>
+    <string name="bd_fragment_text">Bangladesh has longest sea beach</string>
+    <string name="in_fragment_text">India has large population.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ne_fragment_text">Nepal is a beautiful country.</string>
+    <string name="bh_fragment_text">In Bhutan maximum people are buddist.</string>
     <string-array name="mycountryArray">
 
         <item>Bangladesh</item>
         <item>India</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
 
     </string-array>
 </resources>

@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             //INFragment2;
             myfragment= new INFragment();
         }
+        else if(text.equals("Nepal"))
+        {
+            myfragment= new NEFragment();
+        }
+        else if(text.equals("Bhutan")){
+            myfragment=new BHFragment();
+        }
         else {
             // BlankFragment;
             myfragment=new BlankFragment();
@@ -74,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         int radioButtonid=myRadiogroup.getCheckedRadioButtonId();
         selectedRadiobutton=findViewById(radioButtonid);
         selectedValue=selectedRadiobutton.getText().toString();
-        if(selectedValue.equals("Ashulia")){
+        if(selectedValue.equals("Google")){
             marks=5;
         }
         Intent myIntent=new Intent(MainActivity.this,MainActivity2.class );
