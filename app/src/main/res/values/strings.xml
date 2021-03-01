@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FragmentIntentSpinner</string>
+    <string name="front">Where is DIU permanent campus?</string>
+    <string name="option1Text">Ashulia</string>
+    <string name="option2Text">Mirpur</string>
+    <string name="option3Text">Dhanmondi</string>
+    <string name="submitText">SUBMIT</string>
+    <string name="TryagainButtonText">Try Again</string>
+
+    <string name="bd_fragment_text">Bangladesh is so Beautiful</string>
+    <string name="in_fragment_text">India is our Neighbour Country</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="mycountryArray">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+
+    </string-array>
+</resources>

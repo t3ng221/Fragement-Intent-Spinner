@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/color2"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/outputTextviewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/tryAgainButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TryagainFunction"
+        android:text="@string/TryagainButtonText"
+        android:background="#00E5FF"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
